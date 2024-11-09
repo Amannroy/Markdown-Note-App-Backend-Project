@@ -20,6 +20,6 @@ app.listen(PORT, () => {
     
 })
 
-// app.get('/', (req, res) => {
-//     res.send("Hello");
-// })
+app.get('/', (req, res) => {
+    res.send("App is live");
+})
